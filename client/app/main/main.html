@@ -4,7 +4,17 @@
   <div class="container vcenter">
     <h1>Rosedale Master Plan</h1>
     <p class="lead">The Rosedale Master Plan is starting soon!</p>
-
-      <a class='btn btn-lg btn-primary' href="https://app.e2ma.net/app2/audience/signup/1795171/1406836/?v=a" onclick="window.open('https://app.e2ma.net/app2/audience/signup/1795171/1406836/?v=a', 'signup', 'menubar=no, location=no, toolbar=no, scrollbars=yes, height=500'); return false;">Sign Up for Updates</a>
+    <form>
+      <div class="form-group col-md-8 col-md-offset-2">
+        <br><Br><br>
+        <label for="exampleInputEmail1">Stay up-to-date</label>
+        <div class='input-group input-group-lg'>
+          <input type="email" class="form-control" id="emailsubscribe" placeholder="Email" ng-model='email'>
+          <span class="input-group-btn">
+              <button class="btn btn-primary" type="button" ng-click='addEmail()'>Subscribe!</button>
+          </span>
+        </div>
+      </div>
+    </form>
   </div>
 </header>
