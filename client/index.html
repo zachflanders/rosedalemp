@@ -20,14 +20,19 @@
       <!-- injector:css -->
       <!-- endinjector -->
     <!-- endbuild -->
+    <link href="https://app.e2ma.net/css/signup.lrg.css" rel="stylesheet" type="text/css">
+
   </head>
+
+
   <body ng-app="codeApp">
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <div ui-view=""></div>
+    <div ui-view="" id='main-view'></div>
+
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
     <script>
@@ -57,9 +62,9 @@
       <!-- endbower -->
     <!-- endbuild -->
 
-        
+
         <!-- build:js(.tmp) app/app.js -->
-        
+
         <script src="app/app.js"></script>
           <!-- injector:js -->
           <script src="app/main/main.controller.js"></script>
@@ -68,5 +73,7 @@
           <script src="components/navbar/navbar.controller.js"></script>
           <!-- endinjector -->
         <!-- endbuild -->
+        <div id="load_check" class="signup_form_message" >This form needs Javascript to display, which your browser does not support. <a href="https://app.e2ma.net/app2/audience/signup/1795171/1406836/?v=a"> Sign up here</a> instead.</div> 
+        <script type="text/javascript" src="https://app.e2ma.net/app2/audience/tts_signup/1795171/0b1e30680057dd806ecb12957809f1a7/1406836/?v=a"></script>
 </body>
 </html>

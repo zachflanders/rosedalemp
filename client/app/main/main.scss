@@ -1,5 +1,5 @@
-.thing-form {
-    margin: 20px 0;
+html, body, #main-view {
+  height:100%;
 }
 
 #banner {
@@ -19,7 +19,11 @@
     color: #F5F5F5;
     text-align: center;
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
-    background: #4393B9;
+    background: url('/assets/images/rosedale.jpg');
+    background-size: cover;
+    background-position: center;
+    height:100%;
+
 }
 
 .footer {
@@ -31,4 +35,11 @@
 
 .navbar-text {
   margin-left: 15px;
+}
+.vcenter {
+    margin-top:12%;
+}
+
+#emailsubscribe{
+  background-color: rgba(255,255,255,0.7) ;
 }
